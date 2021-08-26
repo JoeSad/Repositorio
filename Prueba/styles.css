@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ceb4f4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.37' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo {
+    padding-top: 40px;
+}
+
+.titulo header h2 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo header h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+}
+
+.logo1 {
+    padding: 5px;
+    size: 400px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.botones {
+    width: 90%;
+    margin: auto;
+}
+
+/* NAVEGACIÓN */
+.nav-main {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 90px;
+}
+
+.nav-main ul li a {
+    padding: 20px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 10px solid black;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.fin {
+    color: black;
+}
+
+.video {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 600px;
+    height: 400px;
+    size: 1080px;
+}
+
+/* Slider */
+
+.slide{
+    width: 60%;
+/*     height: 3000px; */
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.slide ul{
+    padding: 0px;
+    display: flex;
+    width: 400%;
+    animation: slide 5s infinite;
+}
+    
+@keyframes slide {
+    0%{margin-left:0;}
+    20%{margin-left:0;} 
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+    
+.slide li{
+    width: 100%;
+    list-style: none;
+}
+    
+.slide li img{
+    width: 100%;
+}
+
+/* Registro */
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+
+
+
